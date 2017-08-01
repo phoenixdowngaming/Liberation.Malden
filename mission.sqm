@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=4125;
+		nextID=4124;
 	};
 	class LayerIndexProvider
 	{
-		nextID=290;
+		nextID=257;
 	};
 	class Camera
 	{
-		pos[]={7202.2305,199.47697,12276.111};
-		dir[]={0.662027,-0.51691449,-0.54270703};
-		up[]={0.39976817,0.8560316,-0.32771581};
-		aside[]={-0.63397706,-4.2468309e-007,-0.77336198};
+		pos[]={140.7973,56.155823,2835.5486};
+		dir[]={0.39445469,-0.49042791,0.7772429};
+		up[]={0.22197951,0.8714081,0.43739334};
+		aside[]={0.89182544,1.8275314e-006,-0.4526028};
 	};
 };
 binarizationWanted=0;
@@ -483,7 +483,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=508;
+		items=507;
 		class Item0
 		{
 			dataType="Layer";
@@ -25702,7 +25702,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={185.52708,21.369392,3121.0513};
-				angles[]={0,4.8042126,0};
+				angles[]={-0,4.8042126,0};
 			};
 			side="Empty";
 			flags=4;
@@ -25934,7 +25934,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={181.79224,20.510857,3120.2332};
-				angles[]={0,1.3588483,0};
+				angles[]={-0,1.3588483,0};
 			};
 			side="Empty";
 			flags=4;
@@ -25951,7 +25951,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={180.66731,20.510967,3120.2241};
-				angles[]={0,1.3588483,0};
+				angles[]={-0,1.3588483,0};
 			};
 			side="Empty";
 			flags=4;
@@ -26246,7 +26246,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={181.28326,20.565802,3135.7039};
-				angles[]={0,1.3843114,0};
+				angles[]={-0,1.3843114,0};
 			};
 			side="Empty";
 			flags=4;
@@ -26263,7 +26263,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={180.89159,20.565804,3144.1685};
-				angles[]={0,1.3843114,0};
+				angles[]={-0,1.3843114,0};
 			};
 			side="Empty";
 			flags=4;
@@ -26280,7 +26280,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={179.93869,20.565804,3154.2939};
-				angles[]={0,1.3843114,0};
+				angles[]={-0,1.3843114,0};
 			};
 			side="Empty";
 			flags=4;
@@ -26297,7 +26297,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={180.97479,20.350443,3132.1931};
-				angles[]={0,1.234251,0};
+				angles[]={-0,1.234251,0};
 			};
 			side="Empty";
 			flags=4;
@@ -26313,7 +26313,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={180.92682,20.350443,3140.2112};
-				angles[]={0,1.234251,0};
+				angles[]={-0,1.234251,0};
 			};
 			side="Empty";
 			flags=4;
@@ -26329,7 +26329,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={180.05908,20.350445,3149.6582};
-				angles[]={0,1.234251,0};
+				angles[]={-0,1.234251,0};
 			};
 			side="Empty";
 			flags=4;
@@ -26383,97 +26383,6 @@ class Mission
 			};
 			id=4123;
 			type="RoadCone_L_F";
-		};
-		class Item507
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={7198.0532,6.2928505,12308.405};
-				angles[]={0.039977662,0,6.1307769};
-			};
-			id=4124;
-			type="ModuleCurator_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleCurator_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="#adminLogged";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleCurator_F_Forced";
-					expression="_this setVariable ['Forced',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleCurator_F_Name";
-					expression="_this setVariable ['Name',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleCurator_F_Addons";
-					expression="_this setVariable ['Addons',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=3;
-						};
-					};
-				};
-				nAttributes=4;
-			};
 		};
 	};
 	class Connections
