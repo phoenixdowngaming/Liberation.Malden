@@ -46,13 +46,13 @@ class Params
 		title = $STR_PARAM_FOBS_COUNT;
 		values[] = {3,5,7,10,15,20,26};
 		texts[] = {3,5,7,10,15,20,26};
-		default = 10;
+		default = 7;
 	};
 	class MaxSquadSize{
 		title = $STR_PARAM_SQUAD_SIZE;
 		values[] = {0,1,2,4,6,8,10,12,16,20,24,30,36};
 		texts[] = {0,1,2,4,6,8,10,12,16,20,24,30,36};
-		default = 12;
+		default = 4;
 	};
 	class BluforDefenders{
 		title = $STR_PARAM_BLUFOR_DEFENDERS;
@@ -70,13 +70,13 @@ class Params
 		title = $STR_PARAMS_DAYDURATION;
 		values[] = {48, 24, 16, 12, 8, 6, 4, 3, 2, 1};
 		texts[] = {"0.5","1","1.5","2","3","4","6","8","12","24"};
-		default = 6;
+		default = 8;
 	};
 	class ShorterNights {
 		title = $STR_SHORTER_NIGHTS_PARAM;
 		values[] = {1,0};
 		texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-		default = 0;
+		default = 1;
 	};
 	class Weather {
 		title = $STR_WEATHER_PARAM;
@@ -126,7 +126,7 @@ class Params
 		isGlobal = 1;
 		values[] = {-100,0,1};
 		texts[] = {$STR_A3_MissionDefault,$STR_A3_None,$STR_A3_Medic};
-		default = 1;
+		default = 0;
 		function = "bis_fnc_paramReviveRequiredTrait";
 	};
 	class ReviveMedicSpeedMultiplier
@@ -144,7 +144,7 @@ class Params
 		isGlobal = 1;
 		values[] = {-100,0,1,2};
 		texts[] = {$STR_A3_MissionDefault,$STR_A3_None,$STR_A3_Medikit,$STR_A3_FirstAidKitOrMedikit};
-		default = 1;
+		default = 0;
 		function = "bis_fnc_paramReviveRequiredItems";
 	};
 	class UnconsciousStateMode
@@ -153,7 +153,7 @@ class Params
 		isGlobal = 1;
 		values[] = {-100,0,1,2};
 		texts[] = {$STR_A3_MissionDefault,$STR_A3_Basic,$STR_A3_Advanced,$STR_A3_Realistic};
-		default = 0;
+		default = 1;
 		function = "bis_fnc_paramReviveUnconsciousStateMode";
 	};
 	class ReviveBleedOutDuration
@@ -162,7 +162,7 @@ class Params
 		isGlobal = 1;
 		values[] = {-100,10,15,20,30,45,60,90,180};
 		texts[] = {$STR_A3_MissionDefault,10,15,20,30,45,60,90,180};
-		default = 180;
+		default = 90;
 		function = "bis_fnc_paramReviveBleedOutDuration";
 	};
 	class ReviveForceRespawnDuration
@@ -196,13 +196,13 @@ class Params
 		title = $STR_PARAMS_FATIGUE;
 		values[] = { 0, 1 };
 		texts[] = { $STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED };
-		default = 1;
+		default = 0;
 	};
 	class ArsenalUsePreset {
 		title = $STR_PARAMS_ARSENALUSEPRESET;
 		values[] = { 0, 1 };
 		texts[] = { $STR_PARAMS_NOTRESTRICTIONS, $STR_PARAMS_USEPRESET };
-		default = 1;
+		default = 0;
 	};
 	class MapMarkers {
 		title = $STR_PARAMS_MAPMARKERS;
@@ -238,7 +238,7 @@ class Params
 		title = $STR_HALO_PARAM;
 		values[] = {1,5,10,15,20,30,0};
 		texts[] = { $STR_HALO_PARAM1, $STR_HALO_PARAM2, $STR_HALO_PARAM3, $STR_HALO_PARAM4, $STR_HALO_PARAM5, $STR_HALO_PARAM6, $STR_PARAMS_DISABLED };
-		default = 0;
+		default = 10;
 	};
 	class Spacer3 {
 		title = "";

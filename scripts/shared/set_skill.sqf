@@ -29,7 +29,7 @@ if ( _wounded ) then {
 	if ( _side == GRLIB_side_friendly || _side == GRLIB_side_enemy ) then {
 		_unit setSkill ["aimingspeed", [ 0.35 * _skillmodifier ] call F_limitSkill];
 		if ( _inVehicle ) then {
-			_unit setSkill ["aimingaccuracy", [ 0.65 * _skillmodifier ] call F_limitSkill];
+			_unit setSkill ["aimingaccuracy", [ 0.45 * _skillmodifier ] call F_limitSkill];
 		} else {
 			_unit setSkill ["aimingshake", [ 0.35 * _skillmodifier ] call F_limitSkill];
 		};

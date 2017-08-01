@@ -79,7 +79,7 @@ GRLIB_vulnerability_timer = 1200;																				// Time in seconds how long
 GRLIB_radiotower_size = 2500;																					// Radio Tower scanning range.
 GRLIB_surrender_chance = 80;																					// Chance that enemy infantry will surrender after heavy losses are encountered.
 
-GRLIB_civilians_amount = 10 						* GRLIB_civilian_activity;									// Civilian count multiplier.
+GRLIB_civilians_amount =  4 						* GRLIB_civilian_activity;									// Civilian count multiplier.
 GRLIB_cleanup_delay = 1200;																						// Time in seconds until bodies of dead soldiers are cleaned up.
 
 GRLIB_blufor_cap = 100								* GRLIB_unitcap;											// Cap for BLUFOR.

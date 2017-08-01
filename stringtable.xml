@@ -8,10 +8,10 @@
 				<!-- Russion localization made by _KOC_: Constantin.rogozin@ya.ru -->
 				<!-- English corrections / proofreading by Applejakerie: https://github.com/Applejakerie -->
 				<Key ID="STR_MISSION_TITLE">
-						<Original>KP Liberation Malden v0.955</Original>
-						<German>KP Liberation Malden v0.955</German>
-						<Spanish>KP Liberation Malden v0.955</Spanish>
-						<Italian>KP Liberation Malden v0.955</Italian>
+						<Original>PDG Liberation Malden v0.955</Original>
+						<German>PDG Liberation Malden v0.955</German>
+						<Spanish>PDG Liberation Malden v0.955</Spanish>
+						<Italian>PDG Liberation Malden v0.955</Italian>
 				</Key>
 				<Key ID="STR_MISSION_VERSION">
 						<Original>v0.955</Original>
@@ -52,7 +52,7 @@
 						<Italian>Ho bisogno di un medico!</Italian>
 				</Key>
 				<Key ID="STR_FAR_Need_Medic2">
-						<Original>I'm hit! Medic!</Original>
+						<Original>Shit, I'm hit! Medic!</Original>
 						<French>Je suis touché! Medic!</French>
 						<German>Wurde getroffen! Sanitäter!</German>
 						<Spanish>Herido! Médico!</Spanish>
@@ -60,7 +60,7 @@
 						<Italian>Mi hanno colpito! Medico!</Italian>
 				</Key>
 				<Key ID="STR_FAR_Need_Medic3">
-						<Original>I'm down! Medic!</Original>
+						<Original>Damn it! I'm down! Medic!</Original>
 						<French>Je suis à terre! Medic!</French>
 						<German>Ich bin gefallen! Sanitäter!</German>
 						<Spanish>Estoy abatido! Médico!</Spanish>
@@ -548,7 +548,7 @@
 						<Italian>SETTORE SOTTO ATTACCO</Italian>
 				</Key>
 				<Key ID="STR_NOTIFICATION_SECTORATTACKED_TEXT">
-						<Original>Hostiles forces are attacking %1!</Original>
+						<Original>Hostile forces are attacking %1!</Original>
 						<French>Des forces hostiles attaquent %1!</French>
 						<German>Gegnerische Truppen greifen %1 an!</German>
 						<Spanish>Fuerzas hostiles están atacando %1</Spanish>
@@ -564,7 +564,7 @@
 						<Italian>SETTORE PERSO</Italian>
 				</Key>
 				<Key ID="STR_NOTIFICATION_SECTORLOST_TEXT">
-						<Original>We have lost control over %1!</Original>
+						<Original>We have lost control of %1!</Original>
 						<French>Nous avons perdu le contrôle de %1!</French>
 						<German>Wir haben die Kontrolle ueber %1 verloren!</German>
 						<Spanish>Hemos perdido el control sobre %1!</Spanish>
@@ -580,7 +580,7 @@
 						<Italian>SETTORE AL SICURO</Italian>
 				</Key>
 				<Key ID="STR_NOTIFICATION_SECTORSAFE_TEXT">
-						<Original>%1 is no longer under threat.</Original>
+						<Original>%1 is no longer under attack.</Original>
 						<French>%1 n'est plus menacé(e).</French>
 						<German>%1 ist ausser Gefahr.</German>
 						<Spanish>%1 ya no está bajo amenaza.</Spanish>
@@ -612,7 +612,7 @@
 						<Italian>FOB AL SICURO</Italian>
 				</Key>
 				<Key ID="STR_NOTIFICATION_FOBSAFE_TEXT">
-						<Original>FOB %1 is no longer under threat.</Original>
+						<Original>FOB %1 is no longer under attack.</Original>
 						<French>La FOB %1 n'est plus menacée.</French>
 						<German>FOB %1 ist ausser Gefahr.</German>
 						<Spanish>FOB %1 ya no está bajo amenaza</Spanish>
@@ -3362,7 +3362,7 @@
 						<German>&lt;br/&gt;&lt;br/&gt;
                         In dieser Kampagne müssen Sie drei Arten von Ressourcen verwalten, einlagern und beschützen:&lt;br/&gt; &lt;br/&gt;
 						&lt;t color='#00ff00'&gt;NACHSCHUB:&lt;/t&gt; Diese sind von essenzieller Bedeutung. Ohne Nachschub, können Sie weder Soldaten rekrutieren, noch militärisches Gerät anfordern. Daher, HQ empfiehlt diese zu bevorzugen!&lt;br/&gt; &lt;br/&gt;
-						&lt;t color='#ff0000'&gt;MUNITION:&lt;/t&gt; Werden für bewaffnete Fahrzeuge wie Spz und Kpz, sowie für Elite (schwerbewaffnete) Soldaten benötigt.&lt;br/&gt; &lt;br/&gt;
+						&lt;t color='#ff0000'&gt;MUNITION:&lt;/t&gt; Werden für bewaffnete Fahrzeuge wie Spz und PDGz, sowie für Elite (schwerbewaffnete) Soldaten benötigt.&lt;br/&gt; &lt;br/&gt;
 						&lt;t color='#ffff00'&gt;KRAFTSTOFF:&lt;/t&gt; Jedes Fahrzeug benötigt Kraftstoff. Einige sind durstiger, als andere.&lt;br/&gt; &lt;br/&gt;
 						In den Sektoren können Sie durchaus alle drei Arten von Ressourcen finden, aber für einen signifikanten und konstanten Nachschub, müssen Sie PoI und Fabriken einnehmen. Nach Übernahme, benötigen beide Lagerflächen (scroll-menu) und dann benötigt der PoI zusätzlich noch ein Fabrikgebäude (wieder scroll-menu). Alle drei Arten von Fabriken können in ein und dem selben PoI gebaut werden, jedoch müssen Sie eine erste und einzige Abgabe dafür bereitstellen! Das sind 50 von der Ressource, die nachher von der Fabrik produziert werden soll und je 100 der anderen beiden Ressourcen.&lt;br/&gt;&lt;br/&gt;
 						</German>
@@ -3383,7 +3383,7 @@
 						<German>&lt;br/&gt;&lt;br/&gt;
                         In dieser Kampagne müssen Sie drei Arten von Ressourcen verwalten, einlagern und beschützen:&lt;br/&gt; &lt;br/&gt;
 						&lt;t color='#00ff00'&gt;NACHSCHUB:&lt;/t&gt; Diese sind von essenzieller Bedeutung. Ohne Nachschub, können Sie weder Soldaten rekrutieren, noch militärisches Gerät anfordern. Daher, HQ empfiehlt diese zu bevorzugen!&lt;br/&gt; &lt;br/&gt;
-						&lt;t color='#ff0000'&gt;MUNITION:&lt;/t&gt; Werden für bewaffnete Fahrzeuge wie Spz und Kpz, sowie für Elite (schwerbewaffnete) Soldaten benötigt.&lt;br/&gt; &lt;br/&gt;
+						&lt;t color='#ff0000'&gt;MUNITION:&lt;/t&gt; Werden für bewaffnete Fahrzeuge wie Spz und PDGz, sowie für Elite (schwerbewaffnete) Soldaten benötigt.&lt;br/&gt; &lt;br/&gt;
 						&lt;t color='#ffff00'&gt;KRAFTSTOFF:&lt;/t&gt; Jedes Fahrzeug benötigt Kraftstoff. Einige sind durstiger, als andere.&lt;br/&gt; &lt;br/&gt;
 						In den Sektoren können Sie durchaus alle drei Arten von Ressourcen finden, aber für einen signifikanten und konstanten Nachschub, müssen Sie PoI und Fabriken einnehmen. Nach Übernahme, benötigen beide Lagerflächen (scroll-menu) und dann benötigt der PoI zusätzlich noch ein Fabrikgebäude (wieder scroll-menu). Alle drei Arten von Fabriken können in ein und dem selben PoI gebaut werden, jedoch müssen Sie eine erste und einzige Abgabe dafür bereitstellen! Das sind 50 von der Ressource, die nachher von der Fabrik produziert werden soll und je 100 der anderen beiden Ressourcen.&lt;br/&gt;&lt;br/&gt;
 						</German>		
