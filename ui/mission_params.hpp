@@ -153,7 +153,7 @@ class Params
 		isGlobal = 1;
 		values[] = {-100,0,1,2};
 		texts[] = {$STR_A3_MissionDefault,$STR_A3_Basic,$STR_A3_Advanced,$STR_A3_Realistic};
-		default = 1;
+		default = 0;
 		function = "bis_fnc_paramReviveUnconsciousStateMode";
 	};
 	class ReviveBleedOutDuration
@@ -162,7 +162,7 @@ class Params
 		isGlobal = 1;
 		values[] = {-100,10,15,20,30,45,60,90,180};
 		texts[] = {$STR_A3_MissionDefault,10,15,20,30,45,60,90,180};
-		default = 90;
+		default = 180;
 		function = "bis_fnc_paramReviveBleedOutDuration";
 	};
 	class ReviveForceRespawnDuration
