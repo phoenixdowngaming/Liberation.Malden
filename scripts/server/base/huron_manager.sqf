@@ -19,18 +19,20 @@ while { true } do {
 		huron = huron_typename createVehicle (getposATL huronspawn);
 		huron enableSimulationGlobal false;
 		huron allowdamage false;
-		huron setPosATL (getposATL huronspawn);
 		huron setDir (getDir huronspawn);
+		huron setPosATL (getposATL huronspawn);
 	};
 
 	firstloop = false;
 
 	huron AnimateDoor ["Door_rear_source", 1, true];
 	publicVariable "huron";
-	clearWeaponCargoGlobal huron;
-	clearMagazineCargoGlobal huron;
-	clearItemCargoGlobal huron;
-	clearBackpackCargoGlobal huron;
+	if(KP_liberation_clear_cargo) then {
+		clearWeaponCargoGlobal huron;
+		clearMagazineCargoGlobal huron;
+		clearItemCargoGlobal huron;
+		clearBackpackCargoGlobal huron;
+	};
 	huron setDamage 0;
 	sleep 0.5;
 	huron enableSimulationGlobal true;
@@ -40,8 +42,6 @@ while { true } do {
 
 	huron setDamage 0;
 	huron allowdamage true;
-
-	if (KP_liberation_debug) then {private _text = format ["[KP LIBERATION] [DEBUG] huron spawned by: %1", debug_source];_text remoteExec ["diag_log",2];};
 
 	if ( alive huron ) then {
 
@@ -58,5 +58,4 @@ while { true } do {
 		deletevehicle huron;
 	};
 	sleep 0.25;
-
 };

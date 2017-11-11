@@ -2,11 +2,8 @@ params [
 	"_sectorpos",
 	"_classname",
 	[ "_precise_position", false ],
-	[ "_disable_abandon", false ],
 	[ "_random_rotate", true ]
 ];
-
-if (KP_liberation_debug) then {private _text = format ["[KP LIBERATION] [DEBUG] Spawning vehicle %1 at %2", _classname, time];_text remoteExec ["diag_log",2];};
 
 private _newvehicle = objNull;
 private _spawnpos = zeropos;
@@ -30,10 +27,12 @@ if ( _classname in opfor_choppers ) then {
 };
 _newvehicle allowdamage false;
 
-clearWeaponCargoGlobal _newvehicle;
-clearMagazineCargoGlobal _newvehicle;
-clearItemCargoGlobal _newvehicle;
-clearBackpackCargoGlobal _newvehicle;
+if(KP_liberation_clear_cargo) then {
+	clearWeaponCargoGlobal _newvehicle;
+	clearMagazineCargoGlobal _newvehicle;
+	clearItemCargoGlobal _newvehicle;
+	clearBackpackCargoGlobal _newvehicle;
+};
 
 if ( _classname in militia_vehicles ) then {
 	[ _newvehicle ] call F_libSpawnMilitiaCrew;
@@ -53,11 +52,4 @@ sleep 0.1;
 _newvehicle allowdamage true;
 _newvehicle setdamage 0;
 
-if ( !_disable_abandon ) then {
-	[ _newvehicle ] spawn csat_abandon_vehicle;
-};
-
-if (KP_liberation_debug) then {private _text = format ["[KP LIBERATION] [DEBUG] Done Spawning vehicle %1 at %2 - Owner: %3", _classname, time, debug_source];_text remoteExec ["diag_log",2];};
-
 _newvehicle
-

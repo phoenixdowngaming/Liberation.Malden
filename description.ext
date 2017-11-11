@@ -7,8 +7,8 @@ enableDebugConsole = 1;
 allowFunctionsLog = 0;
 
 loadScreen="res\liberation.jpg";
-onLoadMission = "www.phoenixdowngaming.com";
-author = "[GREUH] Zbug, [GREUH] McKeewa, [KP] Wyqer, Applejakerie";
+onLoadMission = "www.killahpotatoes.de";
+author = "[GREUH] Zbug, [GREUH] McKeewa, [KP] Wyqer";
 onLoadName = $STR_MISSION_TITLE;
 
 joinUnassigned = 1;
