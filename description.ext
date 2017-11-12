@@ -1,5 +1,5 @@
 respawn = 3;
-respawndelay = 5;
+respawndelay = 20;
 respawnButton = 1;
 disabledAI = true;
 
@@ -7,8 +7,8 @@ enableDebugConsole = 1;
 allowFunctionsLog = 0;
 
 loadScreen="res\liberation.jpg";
-onLoadMission = "www.killahpotatoes.de";
-author = "[GREUH] Zbug, [GREUH] McKeewa, [KP] Wyqer";
+onLoadMission = "www.phoenixdowngaming.com";
+author = "[GREUH] Zbug, [GREUH] McKeewa, [KP] Wyqer, PDG Xian, PDG Obie";
 onLoadName = $STR_MISSION_TITLE;
 
 joinUnassigned = 1;

@@ -41,7 +41,7 @@ while { true } do {
 			_units_to_remove pushback _x;
 		};
 	} foreach (curatorEditableObjects (allCurators select 0));
-
+/*
 	{
 		_zgm = _x;
 		_zgm addCuratorEditableObjects [_zeusunits,true];
@@ -54,6 +54,6 @@ while { true } do {
 		_zgm  setCuratorCoef ["destroy", -1e8];
 
 	} foreach allCurators;
-
+*/
 	sleep 10;
 };
